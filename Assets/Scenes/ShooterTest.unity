@@ -360,6 +360,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6605006615004124248, guid: ba09a2072e0424044aa37750b71e1420, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7052038903293016455, guid: ba09a2072e0424044aa37750b71e1420, type: 3}
       propertyPath: m_LocalPosition.x
       value: 23.697868
@@ -554,7 +558,6 @@ Transform:
   m_Children:
   - {fileID: 131281205}
   - {fileID: 487437755}
-  - {fileID: 1454410382}
   m_Father: {fileID: 2058277975}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &652236161
@@ -811,7 +814,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1454410377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -922,7 +925,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 5cd47036e2437ee46a175f931c544361, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1100,11 +1103,11 @@ Transform:
   m_GameObject: {fileID: 1454410376}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.13, y: -2.7, z: 0.37}
+  m_LocalPosition: {x: -9.432131, y: -4.918226, z: 9.8648405}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 594752440}
+  m_Father: {fileID: 2058277975}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1832961757 stripped
 GameObject:
@@ -1181,7 +1184,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2058277975
 Transform:
   m_ObjectHideFlags: 0
@@ -1195,6 +1198,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1454410382}
   - {fileID: 1399396093}
   - {fileID: 652236163}
   - {fileID: 1914760091}
